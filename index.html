@@ -7,13 +7,15 @@
 	</head>
 	<body>
 		<ul id="switcher">
-			<li class="smaller">A-</li>
-			<li class="normal">A</li>
-			<li class="bigger">A+</li>
+			<li class="smaller" onclick="document.body.className='smaller'">A-</li>
+			<li class="normal" onclick="document.body.className=''">A</li>
+			<li class="bigger" onclick="document.body.className='bigger'">A+</li>
 		</ul>
 
 		<h1>Page Styler</h1>
 
 		<p>Click the buttons above to change the page styles!</p>
+
+		<script src="script.js"></script>
 	</body>
 </html>
