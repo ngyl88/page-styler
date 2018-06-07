@@ -1,34 +1,19 @@
-// strings vs numbers
-console.log(1 + 20);
-console.log('1' + '20');
-console.log(1 + '20');
+/*function updateClassToSmaller() {
+    console.log('Log: inside function updateClassToSmaller()');
+    document.body.className='smaller';
+}
 
-// strings vs template strings
-console.log("Hello!");
-console.log(`hello, 
+function updateClassToBigger() {
+    console.log('Log: inside function updateClassToBigger()');
+    document.body.className='bigger';
+}
 
-jumpstart!`);
+function updateClassToNothing() {
+    console.log('Log: inside function updateClassToNothing()');
+    document.body.className='';
+}*/
 
-// constant, cannot be reassigned.
-const myVariable = 1;
-const myString = "hello";
-const myBoolean = true;
-//myVariable = 2;
-console.log(myVariable);
-
-// variable declaration
-let anotherVariable = "hello";
-var yetAnotherVariable = 20;
-console.log(anotherVariable);
-console.log(yetAnotherVariable);
-anotherVariable = 2;
-yetAnotherVariable = "hello";
-console.log(anotherVariable);
-console.log(yetAnotherVariable);
-
-//assign variable to variable
-const a = "hello";
-const b = a;
-console.log(b);
-const bodyClass = document.body.className;
-console.log(document.body.className);
+function updateClass(className) {
+    console.log('The argument inside function updateClass(className) is', className);
+    document.body.className=className;
+}

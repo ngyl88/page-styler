@@ -44,3 +44,14 @@ p {
 	font-size: larger;
 }
 
+.red {
+	background-color: red;
+}
+
+.green {
+	background-color: green;
+}
+
+.blue {
+	background-color: blue;
+}

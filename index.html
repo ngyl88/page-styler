@@ -6,10 +6,16 @@
 		<link rel="stylesheet" href="style.css">
 	</head>
 	<body>
+		<div>
+			<button class="red" type="submit" onclick="updateClass('red')">red</button>
+			<button class="green" type="submit" onclick="updateClass('green')">green</button>
+			<button class="blue" type="submit" onclick="updateClass('blue')">blue</button>
+		</div>
+
 		<ul id="switcher">
-			<li class="smaller" onclick="document.body.className='smaller'">A-</li>
-			<li class="normal" onclick="document.body.className=''">A</li>
-			<li class="bigger" onclick="document.body.className='bigger'">A+</li>
+			<li class="smaller" onclick="updateClass('smaller');">A-</li>
+			<li class="normal" onclick="updateClass('');">A</li>
+			<li class="bigger" onclick="updateClass('bigger');">A+</li>
 		</ul>
 
 		<h1>Page Styler</h1>
